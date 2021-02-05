@@ -3,7 +3,7 @@
 *** github_username, repo_name
 -->
 
-# 🚀 REPOSITORY NAME
+# 🌐 Wordpress docker - template
 <!-- PROJECT SHIELDS -->
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
@@ -19,7 +19,8 @@
 > Oneliner about the project
 
 ## About
-> Information about the project
+
+This is a template repository for running Wordpress within a Docker environment.
 
 ## Contributing
 
@@ -53,15 +54,15 @@ SOFTWARE.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg?style=for-the-badge
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[commits-shield]: https://img.shields.io/github/commit-activity/y/github_username/repo_name.svg?style=for-the-badge
-[commits]: https://github.com/github_username/repo_name/commits/master
-[last-commit-shield]: https://img.shields.io/github/last-commit/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[contributors-url]: https://github.com/klaasnicolaas/wordpress-docker/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[forks-url]: https://github.com/klaasnicolaas/wordpress-docker/network/members
+[stars-shield]: https://img.shields.io/github/stars/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[stars-url]: https://github.com/klaasnicolaas/wordpress-docker/stargazers
+[issues-shield]: https://img.shields.io/github/issues/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[issues-url]: https://github.com/klaasnicolaas/wordpress-docker/issues
+[license-shield]: https://img.shields.io/github/license/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[commits-shield]: https://img.shields.io/github/commit-activity/y/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[commits]: https://github.com/klaasnicolaas/wordpress-docker/commits/master
+[last-commit-shield]: https://img.shields.io/github/last-commit/klaasnicolaas/wordpress-docker.svg?style=for-the-badge

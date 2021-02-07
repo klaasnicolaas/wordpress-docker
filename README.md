@@ -3,7 +3,7 @@
 *** github_username, repo_name
 -->
 
-# 🌐 Wordpress docker - template
+# 🌐 Wordpress docker - Template
 <!-- PROJECT SHIELDS -->
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
@@ -16,11 +16,9 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-> Oneliner about the project
-
 ## About
 
-This is a template repository for running Wordpress within a Docker environment.
+This is a template repository for running Wordpress within a Docker environment. With the approach that it is easy to set up and you can run many wordpress environments on a single host.
 
 ## Get started
 

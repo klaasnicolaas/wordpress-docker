@@ -22,6 +22,42 @@
 
 This is a template repository for running Wordpress within a Docker environment.
 
+## Get started
+
+How to start with this Laravel Docker template:
+
+1. Clone the repository
+2. Create a `.env` file
+
+```bash
+cp .env.example .env
+```
+
+3. Inside the `.env` file give the following variables a value
+    - `APP_NAME`
+    - `APP_PORT`
+    - `MYSQL_HOST`
+    - `MYSQL_PORT`
+    - `MYSQL_ROOT_PASSWORD`
+    - `MYSQL_USERNAME`
+    - `MYSQL_PASSWORD`
+
+### Ports (optional)
+
+By default port **8000** is set for Wordpress and **3306** for MySQL, if you prefer to use other ports you can change this in the created `.env` file.
+
+### Volumes (optional)
+
+If you want to access the persistent data from the containers, you just have to uncomment the volumes in the [docker-compose.yml](docker-compose.yml) file.
+
+## Run
+
+When you have done the getting started part, it's time to start the docker containers.
+
+```bash
+docker-compose up -d
+```
+
 ## Contributing
 
 Would you like to contribute to the development of this project? Then read the prepared [contribution guidelines](CONTRIBUTING.md) and go ahead!

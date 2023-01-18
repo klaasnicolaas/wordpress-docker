@@ -6,7 +6,7 @@
 # 🌐 Wordpress docker - Template
 <!-- PROJECT SHIELDS -->
 ![Project Maintenance][maintenance-shield]
-[![License][license-shield]](LICENSE.md)
+[![License][license-shield]](LICENSE)
 
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]

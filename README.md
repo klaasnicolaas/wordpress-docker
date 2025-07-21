@@ -66,7 +66,7 @@ Thank you for being involved! :heart_eyes:
 
 MIT License
 
-Copyright (c) 2021-2023 Klaas Schoute
+Copyright (c) 2021-2025 Klaas Schoute
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -87,16 +87,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg?style=for-the-badge
-[contributors-shield]: https://img.shields.io/github/contributors/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[contributors-shield]: https://img.shields.io/github/contributors/klaasnicolaas/wordpress-docker.svg
 [contributors-url]: https://github.com/klaasnicolaas/wordpress-docker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/klaasnicolaas/wordpress-docker.svg
 [forks-url]: https://github.com/klaasnicolaas/wordpress-docker/network/members
-[stars-shield]: https://img.shields.io/github/stars/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/klaasnicolaas/wordpress-docker.svg
 [stars-url]: https://github.com/klaasnicolaas/wordpress-docker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/klaasnicolaas/wordpress-docker.svg
 [issues-url]: https://github.com/klaasnicolaas/wordpress-docker/issues
-[license-shield]: https://img.shields.io/github/license/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
-[commits-shield]: https://img.shields.io/github/commit-activity/y/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/klaasnicolaas/wordpress-docker.svg
+[commits-shield]: https://img.shields.io/github/commit-activity/y/klaasnicolaas/wordpress-docker.svg
 [commits]: https://github.com/klaasnicolaas/wordpress-docker/commits/master
-[last-commit-shield]: https://img.shields.io/github/last-commit/klaasnicolaas/wordpress-docker.svg?style=for-the-badge
+[last-commit-shield]: https://img.shields.io/github/last-commit/klaasnicolaas/wordpress-docker.svg

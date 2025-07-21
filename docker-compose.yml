@@ -1,5 +1,4 @@
-version: '3.3'
-
+---
 services:
   # Wordpress Service
   wordpress:
@@ -11,24 +10,25 @@ services:
     ports:
       - ${APP_PORT}:80
     environment:
-      WORDPRESS_DB_HOST: ${MYSQL_HOST}:${MYSQL_PORT}
+      WORDPRESS_DB_HOST: mysql:3306
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
       WORDPRESS_DB_USER: ${MYSQL_USER}
       WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
-      WORDPRESS_DB_NAME: wordpress
-    # volumes:
-    #   - ./website:/var/www/html/
+    volumes:
+      - ./website:/var/www/html/
+      - ./config/php/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
 
   # MySQL Service
   mysql:
     image: mysql:latest
     container_name: ${APP_NAME}_mysql
-    restart: always
+    restart: unless-stopped
     ports:
       - ${MYSQL_PORT}:3306
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: wordpress
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-    # volumes:
-    #   - ./dbdata:/var/lib/mysql
+    volumes:
+      - ./db:/var/lib/mysql

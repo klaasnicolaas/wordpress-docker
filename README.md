@@ -1,8 +1,3 @@
-<!--
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name
--->
-
 # 🌐 Wordpress docker - Template
 <!-- PROJECT SHIELDS -->
 ![Project Maintenance][maintenance-shield]
@@ -18,11 +13,24 @@
 
 ## About
 
-This is a template repository for running Wordpress within a Docker environment. With the approach that it is easy to set up and you can run many wordpress environments on a single host.
+This is a template repository for running WordPress within a Docker environment. The goal is to make setup easy and allow you to run multiple WordPress environments on a single host.
+
+## 🧪 Project structure
+
+```
+wordpress-docker/
+├── docker-compose.yml
+├── .env.example
+├── config/
+│   └── php/
+│       └── uploads.ini
+├── website/
+└── README.md
+```
 
 ## Get started
 
-How to start with this Laravel Docker template:
+How to start with this WordPress Docker template:
 
 1. Clone the repository
 2. Create a `.env` file
@@ -31,30 +39,29 @@ How to start with this Laravel Docker template:
 cp .env.example .env
 ```
 
-3. Inside the `.env` file give the following variables a value
-    - `APP_NAME`
-    - `APP_PORT`
-    - `MYSQL_HOST`
-    - `MYSQL_PORT`
-    - `MYSQL_ROOT_PASSWORD`
-    - `MYSQL_USERNAME`
-    - `MYSQL_PASSWORD`
+3. In the `.env` file, set the following variables:
+
+- `APP_NAME` — Name of the project (used in container names)
+- `APP_PORT` — Port to access WordPress (e.g. 8000)
+- `MYSQL_HOST` — Usually `mysql`
+- `MYSQL_PORT` — Usually `3306`
+- `MYSQL_ROOT_PASSWORD` — Root password for MySQL
+- `MYSQL_USER` — Username for the WordPress database
+- `MYSQL_PASSWORD` — Password for the WordPress database
 
 ### Ports (optional)
 
-By default port **8000** is set for Wordpress and **3306** for MySQL, if you prefer to use other ports you can change this in the created `.env` file.
-
-### Volumes (optional)
-
-If you want to access the persistent data from the containers, you just have to uncomment the volumes in the [docker-compose.yml](docker-compose.yml) file.
+By default, port **8000** is used for WordPress and **3306** for MySQL. If you prefer different ports, you can change them in your `.env` file.
 
 ## Run
 
-When you have done the getting started part, it's time to start the docker containers.
+After completing the steps above, you can start the containers:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
+
+Then visit [http://localhost:8000](http://localhost:8000)
 
 ## Contributing
 
